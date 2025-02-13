@@ -1,0 +1,16 @@
+.Element1 {
+    padding: 30px;
+    width: 500px;
+    text-align: center;
+    position: relative; /* Ensures .Element2 is positioned relative to this */
+    background-color: #ffcccb;
+}
+
+.Element2 {
+    padding: 20px;
+    text-align: center;
+    position: absolute; /* Now correctly positioned within .Element1 */
+    top: 0;
+    right: 0;
+    background-color: #add8e6;
+}

@@ -1,0 +1,86 @@
+ /* Resetting some default styles */
+ * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  /* General body styles */
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+  }
+
+  /* Header styles (Key Point 1) */
+  header {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+  }
+
+  /* Navigation styles (Key Point 2) */
+  nav {
+    background-color: #444;
+    padding: 15px;
+    color: white;
+    position: sticky;
+    top: 0;
+  }
+
+  nav ul {
+    list-style-type: none;
+  }
+
+  nav ul li {
+    display: inline;
+    margin-right: 20px;
+  }
+
+  nav ul li a {
+    color: white;
+    text-decoration: none;
+  }
+
+  nav ul li a:hover {
+    text-decoration: underline;
+  }
+
+  /* Layout container styles (Key Point 3) */
+  .container {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+  }
+
+  /* Flexbox main content area (Key Point 4) */
+  .main {
+    display: flex;
+    flex: 1;
+    padding: 20px;
+  }
+
+  /* Sidebar styles (Key Point 5) */
+  .sidebar {
+    width: 250px;
+    background-color: #e2e2e2;
+    padding: 15px;
+  }
+
+  /* Main content styles (Key Point 6) */
+  .content {
+    flex: 1;
+    padding: 20px;
+    background-color: white;
+    margin-left: 20px;
+  }
+
+  /* Footer styles (Key Point 7) */
+  footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+  }
